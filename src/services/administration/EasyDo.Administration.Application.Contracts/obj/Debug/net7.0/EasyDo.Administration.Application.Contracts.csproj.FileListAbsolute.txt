@@ -1,0 +1,15 @@
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Application.Contracts/bin/Debug/net7.0/EasyDo.Administration.Application.Contracts.deps.json
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Application.Contracts/bin/Debug/net7.0/EasyDo.Administration.Application.Contracts.dll
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Application.Contracts/bin/Debug/net7.0/EasyDo.Administration.Application.Contracts.pdb
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Application.Contracts/bin/Debug/net7.0/EasyDo.Administration.Domain.Shared.dll
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Application.Contracts/bin/Debug/net7.0/EasyDo.Administration.Domain.Shared.pdb
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Application.Contracts/obj/Debug/net7.0/EasyDo.Administration.Application.Contracts.csproj.AssemblyReference.cache
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Application.Contracts/obj/Debug/net7.0/EasyDo.Administration.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Application.Contracts/obj/Debug/net7.0/EasyDo.Administration.Application.Contracts.AssemblyInfoInputs.cache
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Application.Contracts/obj/Debug/net7.0/EasyDo.Administration.Application.Contracts.AssemblyInfo.cs
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Application.Contracts/obj/Debug/net7.0/EasyDo.Administration.Application.Contracts.csproj.CoreCompileInputs.cache
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Application.Contracts/obj/Debug/net7.0/EasyDo.Administration.Application.Contracts.csproj.CopyComplete
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Application.Contracts/obj/Debug/net7.0/EasyDo.Administration.Application.Contracts.dll
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Application.Contracts/obj/Debug/net7.0/refint/EasyDo.Administration.Application.Contracts.dll
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Application.Contracts/obj/Debug/net7.0/EasyDo.Administration.Application.Contracts.pdb
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Application.Contracts/obj/Debug/net7.0/ref/EasyDo.Administration.Application.Contracts.dll

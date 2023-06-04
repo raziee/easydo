@@ -1,0 +1,12 @@
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Domain.Shared/bin/Debug/net7.0/EasyDo.Administration.Domain.Shared.deps.json
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Domain.Shared/bin/Debug/net7.0/EasyDo.Administration.Domain.Shared.dll
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Domain.Shared/bin/Debug/net7.0/EasyDo.Administration.Domain.Shared.pdb
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Domain.Shared/obj/Debug/net7.0/EasyDo.Administration.Domain.Shared.csproj.AssemblyReference.cache
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Domain.Shared/obj/Debug/net7.0/EasyDo.Administration.Domain.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Domain.Shared/obj/Debug/net7.0/EasyDo.Administration.Domain.Shared.AssemblyInfoInputs.cache
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Domain.Shared/obj/Debug/net7.0/EasyDo.Administration.Domain.Shared.AssemblyInfo.cs
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Domain.Shared/obj/Debug/net7.0/EasyDo.Administration.Domain.Shared.csproj.CoreCompileInputs.cache
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Domain.Shared/obj/Debug/net7.0/EasyDo.Administration.Domain.Shared.dll
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Domain.Shared/obj/Debug/net7.0/refint/EasyDo.Administration.Domain.Shared.dll
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Domain.Shared/obj/Debug/net7.0/EasyDo.Administration.Domain.Shared.pdb
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Domain.Shared/obj/Debug/net7.0/ref/EasyDo.Administration.Domain.Shared.dll

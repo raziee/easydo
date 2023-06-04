@@ -1,0 +1,15 @@
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Domain/obj/Debug/net7.0/EasyDo.Administration.Domain.csproj.AssemblyReference.cache
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Domain/obj/Debug/net7.0/EasyDo.Administration.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Domain/obj/Debug/net7.0/EasyDo.Administration.Domain.AssemblyInfoInputs.cache
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Domain/obj/Debug/net7.0/EasyDo.Administration.Domain.AssemblyInfo.cs
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Domain/obj/Debug/net7.0/EasyDo.Administration.Domain.csproj.CoreCompileInputs.cache
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Domain/bin/Debug/net7.0/EasyDo.Administration.Domain.deps.json
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Domain/bin/Debug/net7.0/EasyDo.Administration.Domain.dll
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Domain/bin/Debug/net7.0/EasyDo.Administration.Domain.pdb
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Domain/bin/Debug/net7.0/EasyDo.Administration.Domain.Shared.dll
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Domain/bin/Debug/net7.0/EasyDo.Administration.Domain.Shared.pdb
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Domain/obj/Debug/net7.0/EasyDo.Administration.Domain.csproj.CopyComplete
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Domain/obj/Debug/net7.0/EasyDo.Administration.Domain.dll
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Domain/obj/Debug/net7.0/refint/EasyDo.Administration.Domain.dll
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Domain/obj/Debug/net7.0/EasyDo.Administration.Domain.pdb
+/home/raziee/Desktop/github/easydo/src/services/administration/EasyDo.Administration.Domain/obj/Debug/net7.0/ref/EasyDo.Administration.Domain.dll

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AutoMapper" Version="7.2.2" />
+    <PackageReference Include="Volo.Abp.Ddd.Application" Version="7.2.2" />
+    <PackageReference Include="Volo.Abp.FeatureManagement.Application" Version="7.2.2" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.Application" Version="7.2.2" />
+    <PackageReference Include="Volo.Abp.SettingManagement.Application" Version="7.2.2" />
+    <ProjectReference Include="..\EasyDo.Administration.Application.Contracts\EasyDo.Administration.Application.Contracts.csproj" />
+    <ProjectReference Include="..\EasyDo.Administration.Domain\EasyDo.Administration.Domain.csproj" />
+  </ItemGroup>
+</Project>

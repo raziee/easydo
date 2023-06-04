@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/raziee/Desktop/github/easydo/src/services/identity/EasyDo.IdentityService.Application.Contracts/EasyDo.IdentityService.Application.Contracts.csproj": {}
+  },
+  "projects": {
+    "/home/raziee/Desktop/github/easydo/src/services/identity/EasyDo.IdentityService.Application.Contracts/EasyDo.IdentityService.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/raziee/Desktop/github/easydo/src/services/identity/EasyDo.IdentityService.Application.Contracts/EasyDo.IdentityService.Application.Contracts.csproj",
+        "projectName": "EasyDo.IdentityService.Application.Contracts",
+        "projectPath": "/home/raziee/Desktop/github/easydo/src/services/identity/EasyDo.IdentityService.Application.Contracts/EasyDo.IdentityService.Application.Contracts.csproj",
+        "packagesPath": "/home/raziee/.nuget/packages/",
+        "outputPath": "/home/raziee/Desktop/github/easydo/src/services/identity/EasyDo.IdentityService.Application.Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/raziee/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/raziee/Desktop/github/easydo/src/services/identity/EasyDo.IdentityService.Domain.Shared/EasyDo.IdentityService.Domain.Shared.csproj": {
+                "projectPath": "/home/raziee/Desktop/github/easydo/src/services/identity/EasyDo.IdentityService.Domain.Shared/EasyDo.IdentityService.Domain.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Volo.Abp.Account.Application.Contracts": {
+              "target": "Package",
+              "version": "[7.2.2, )"
+            },
+            "Volo.Abp.Identity.Application.Contracts": {
+              "target": "Package",
+              "version": "[7.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/raziee/Desktop/github/easydo/src/services/identity/EasyDo.IdentityService.Domain.Shared/EasyDo.IdentityService.Domain.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/raziee/Desktop/github/easydo/src/services/identity/EasyDo.IdentityService.Domain.Shared/EasyDo.IdentityService.Domain.Shared.csproj",
+        "projectName": "EasyDo.IdentityService.Domain.Shared",
+        "projectPath": "/home/raziee/Desktop/github/easydo/src/services/identity/EasyDo.IdentityService.Domain.Shared/EasyDo.IdentityService.Domain.Shared.csproj",
+        "packagesPath": "/home/raziee/.nuget/packages/",
+        "outputPath": "/home/raziee/Desktop/github/easydo/src/services/identity/EasyDo.IdentityService.Domain.Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/raziee/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.FileProviders.Embedded": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Volo.Abp.Identity.Domain.Shared": {
+              "target": "Package",
+              "version": "[7.2.2, )"
+            },
+            "Volo.Abp.OpenIddict.Domain.Shared": {
+              "target": "Package",
+              "version": "[7.2.2, )"
+            },
+            "Volo.Abp.Validation": {
+              "target": "Package",
+              "version": "[7.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

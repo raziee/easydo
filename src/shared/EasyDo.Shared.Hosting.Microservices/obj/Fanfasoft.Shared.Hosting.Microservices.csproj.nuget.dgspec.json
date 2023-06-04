@@ -1,0 +1,494 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/raziee/Desktop/abrarvan/EasyDo/shared/EasyDo.Shared.Hosting.Microservices/EasyDo.Shared.Hosting.Microservices.csproj": {}
+  },
+  "projects": {
+    "/home/raziee/Desktop/abrarvan/EasyDo/services/administration/EasyDo.Administration.Domain.Shared/EasyDo.Administration.Domain.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/raziee/Desktop/abrarvan/EasyDo/services/administration/EasyDo.Administration.Domain.Shared/EasyDo.Administration.Domain.Shared.csproj",
+        "projectName": "EasyDo.Administration.Domain.Shared",
+        "projectPath": "/home/raziee/Desktop/abrarvan/EasyDo/services/administration/EasyDo.Administration.Domain.Shared/EasyDo.Administration.Domain.Shared.csproj",
+        "packagesPath": "/home/raziee/.nuget/packages/",
+        "outputPath": "/home/raziee/Desktop/abrarvan/EasyDo/services/administration/EasyDo.Administration.Domain.Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/raziee/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.FileProviders.Embedded": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Volo.Abp.AuditLogging.Domain.Shared": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Volo.Abp.PermissionManagement.Domain.Shared": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Volo.Abp.SettingManagement.Domain.Shared": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/raziee/Desktop/abrarvan/EasyDo/services/administration/EasyDo.Administration.Domain/EasyDo.Administration.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/raziee/Desktop/abrarvan/EasyDo/services/administration/EasyDo.Administration.Domain/EasyDo.Administration.Domain.csproj",
+        "projectName": "EasyDo.Administration.Domain",
+        "projectPath": "/home/raziee/Desktop/abrarvan/EasyDo/services/administration/EasyDo.Administration.Domain/EasyDo.Administration.Domain.csproj",
+        "packagesPath": "/home/raziee/.nuget/packages/",
+        "outputPath": "/home/raziee/Desktop/abrarvan/EasyDo/services/administration/EasyDo.Administration.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/raziee/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/raziee/Desktop/abrarvan/EasyDo/services/administration/EasyDo.Administration.Domain.Shared/EasyDo.Administration.Domain.Shared.csproj": {
+                "projectPath": "/home/raziee/Desktop/abrarvan/EasyDo/services/administration/EasyDo.Administration.Domain.Shared/EasyDo.Administration.Domain.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Volo.Abp.AuditLogging.Domain": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Volo.Abp.PermissionManagement.Domain": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Volo.Abp.PermissionManagement.Domain.Identity": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Volo.Abp.PermissionManagement.Domain.IdentityServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Volo.Abp.SettingManagement.Domain": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/raziee/Desktop/abrarvan/EasyDo/services/administration/EasyDo.Administration.EntityFrameworkCore/EasyDo.Administration.EntityFrameworkCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/raziee/Desktop/abrarvan/EasyDo/services/administration/EasyDo.Administration.EntityFrameworkCore/EasyDo.Administration.EntityFrameworkCore.csproj",
+        "projectName": "EasyDo.Administration.EntityFrameworkCore",
+        "projectPath": "/home/raziee/Desktop/abrarvan/EasyDo/services/administration/EasyDo.Administration.EntityFrameworkCore/EasyDo.Administration.EntityFrameworkCore.csproj",
+        "packagesPath": "/home/raziee/.nuget/packages/",
+        "outputPath": "/home/raziee/Desktop/abrarvan/EasyDo/services/administration/EasyDo.Administration.EntityFrameworkCore/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/raziee/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/raziee/Desktop/abrarvan/EasyDo/services/administration/EasyDo.Administration.Domain/EasyDo.Administration.Domain.csproj": {
+                "projectPath": "/home/raziee/Desktop/abrarvan/EasyDo/services/administration/EasyDo.Administration.Domain/EasyDo.Administration.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Volo.Abp.AuditLogging.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Volo.Abp.BlobStoring.Database.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Volo.Abp.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Volo.Abp.PermissionManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Volo.Abp.SettingManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/raziee/Desktop/abrarvan/EasyDo/shared/EasyDo.Shared.Hosting.AspNetCore/EasyDo.Shared.Hosting.AspNetCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/raziee/Desktop/abrarvan/EasyDo/shared/EasyDo.Shared.Hosting.AspNetCore/EasyDo.Shared.Hosting.AspNetCore.csproj",
+        "projectName": "EasyDo.Shared.Hosting.AspNetCore",
+        "projectPath": "/home/raziee/Desktop/abrarvan/EasyDo/shared/EasyDo.Shared.Hosting.AspNetCore/EasyDo.Shared.Hosting.AspNetCore.csproj",
+        "packagesPath": "/home/raziee/.nuget/packages/",
+        "outputPath": "/home/raziee/Desktop/abrarvan/EasyDo/shared/EasyDo.Shared.Hosting.AspNetCore/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/raziee/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/raziee/Desktop/abrarvan/EasyDo/shared/EasyDo.Shared.Hosting/EasyDo.Shared.Hosting.csproj": {
+                "projectPath": "/home/raziee/Desktop/abrarvan/EasyDo/shared/EasyDo.Shared.Hosting/EasyDo.Shared.Hosting.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Volo.Abp.AspNetCore.Serilog": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Volo.Abp.Swashbuckle": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/raziee/Desktop/abrarvan/EasyDo/shared/EasyDo.Shared.Hosting.Microservices/EasyDo.Shared.Hosting.Microservices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/raziee/Desktop/abrarvan/EasyDo/shared/EasyDo.Shared.Hosting.Microservices/EasyDo.Shared.Hosting.Microservices.csproj",
+        "projectName": "EasyDo.Shared.Hosting.Microservices",
+        "projectPath": "/home/raziee/Desktop/abrarvan/EasyDo/shared/EasyDo.Shared.Hosting.Microservices/EasyDo.Shared.Hosting.Microservices.csproj",
+        "packagesPath": "/home/raziee/.nuget/packages/",
+        "outputPath": "/home/raziee/Desktop/abrarvan/EasyDo/shared/EasyDo.Shared.Hosting.Microservices/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/raziee/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/raziee/Desktop/abrarvan/EasyDo/services/administration/EasyDo.Administration.EntityFrameworkCore/EasyDo.Administration.EntityFrameworkCore.csproj": {
+                "projectPath": "/home/raziee/Desktop/abrarvan/EasyDo/services/administration/EasyDo.Administration.EntityFrameworkCore/EasyDo.Administration.EntityFrameworkCore.csproj"
+              },
+              "/home/raziee/Desktop/abrarvan/EasyDo/shared/EasyDo.Shared.Hosting.AspNetCore/EasyDo.Shared.Hosting.AspNetCore.csproj": {
+                "projectPath": "/home/raziee/Desktop/abrarvan/EasyDo/shared/EasyDo.Shared.Hosting.AspNetCore/EasyDo.Shared.Hosting.AspNetCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "DistributedLock.Redis": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.AspNetCore.DataProtection.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Volo.Abp.AspNetCore.MultiTenancy": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Volo.Abp.BackgroundJobs.RabbitMQ": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Volo.Abp.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Volo.Abp.DistributedLocking": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Volo.Abp.EventBus.RabbitMQ": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Volo.Abp.MongoDB": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/raziee/Desktop/abrarvan/EasyDo/shared/EasyDo.Shared.Hosting/EasyDo.Shared.Hosting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/raziee/Desktop/abrarvan/EasyDo/shared/EasyDo.Shared.Hosting/EasyDo.Shared.Hosting.csproj",
+        "projectName": "EasyDo.Shared.Hosting",
+        "projectPath": "/home/raziee/Desktop/abrarvan/EasyDo/shared/EasyDo.Shared.Hosting/EasyDo.Shared.Hosting.csproj",
+        "packagesPath": "/home/raziee/.nuget/packages/",
+        "outputPath": "/home/raziee/Desktop/abrarvan/EasyDo/shared/EasyDo.Shared.Hosting/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/raziee/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Sinks.Async": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Volo.Abp.Autofac": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Volo.Abp.Data": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/EasyDo.IdentityService.HttpApi.Host.props" />
+</Project>

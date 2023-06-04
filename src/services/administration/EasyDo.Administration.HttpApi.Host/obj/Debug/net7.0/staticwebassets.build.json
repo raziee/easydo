@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "NnWqCLy+BBQxQFECr4syKEVTW28P3DgXHakILeZTJLY=",
+  "Source": "EasyDo.Administration.HttpApi.Host",
+  "BasePath": "_content/EasyDo.Administration.HttpApi.Host",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
