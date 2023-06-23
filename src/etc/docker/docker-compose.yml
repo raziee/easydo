@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  easydo_web:
+    image: raziee.ir/easydo_web:latest
+    container_name: easydo_web
+    build:
+      context: ../../
+      dockerfile: apps/EasyDo.Web/Dockerfile
+    ports:
+      - "3000:3000"

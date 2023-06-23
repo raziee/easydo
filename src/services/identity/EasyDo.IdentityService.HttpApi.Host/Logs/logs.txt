@@ -654,3 +654,336 @@ Volo.Abp.Authorization.AbpAuthorizationException: Exception of type 'Volo.Abp.Au
 2023-06-04 16:10:55.503 +04:30 [INF] Start cleanup tokens.
 2023-06-04 16:10:55.627 +04:30 [INF] Start cleanup authorizations.
 2023-06-04 16:10:55.674 +04:30 [INF] Lock is released for TokenCleanupBackgroundWorker
+2023-06-04 16:37:45.153 +04:30 [INF] Application is shutting down...
+2023-06-04 16:37:45.167 +04:30 [INF] Disposing channel pool (1 channels).
+2023-06-04 16:37:45.173 +04:30 [INF] Disposed RabbitMQ Channel Pool (1 channels in 6.97 ms).
+2023-06-04 16:37:45.186 +04:30 [DBG] Stopped background worker: Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker
+2023-06-04 18:39:54.003 +04:30 [INF] Starting EasyDo.IdentityService.HttpApi.Host.
+2023-06-04 18:39:55.494 +04:30 [INF] Loaded ABP modules:
+2023-06-04 18:39:55.495 +04:30 [INF] - EasyDo.IdentityService.IdentityServiceHttpApiHostModule
+2023-06-04 18:39:55.495 +04:30 [INF]   - EasyDo.Shared.Hosting.Microservices.EasyDoSharedHostingMicroservicesModule
+2023-06-04 18:39:55.495 +04:30 [INF]     - EasyDo.Shared.Hosting.AspNetCore.EasyDoSharedHostingAspNetCoreModule
+2023-06-04 18:39:55.495 +04:30 [INF]       - EasyDo.Shared.Hosting.EasyDoSharedHostingModule
+2023-06-04 18:39:55.495 +04:30 [INF]         - Volo.Abp.Autofac.AbpAutofacModule
+2023-06-04 18:39:55.495 +04:30 [INF]           - Volo.Abp.Castle.AbpCastleCoreModule
+2023-06-04 18:39:55.495 +04:30 [INF]         - Volo.Abp.Data.AbpDataModule
+2023-06-04 18:39:55.495 +04:30 [INF]           - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-06-04 18:39:55.495 +04:30 [INF]             - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-06-04 18:39:55.495 +04:30 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-06-04 18:39:55.495 +04:30 [INF]           - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-06-04 18:39:55.495 +04:30 [INF]           - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-06-04 18:39:55.495 +04:30 [INF]       - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2023-06-04 18:39:55.495 +04:30 [INF]         - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-06-04 18:39:55.495 +04:30 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2023-06-04 18:39:55.495 +04:30 [INF]           - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2023-06-04 18:39:55.495 +04:30 [INF]             - Volo.Abp.Auditing.AbpAuditingModule
+2023-06-04 18:39:55.495 +04:30 [INF]               - Volo.Abp.Json.AbpJsonModule
+2023-06-04 18:39:55.495 +04:30 [INF]                 - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-06-04 18:39:55.495 +04:30 [INF]                   - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-06-04 18:39:55.495 +04:30 [INF]                   - Volo.Abp.Timing.AbpTimingModule
+2023-06-04 18:39:55.495 +04:30 [INF]                     - Volo.Abp.Localization.AbpLocalizationModule
+2023-06-04 18:39:55.495 +04:30 [INF]                       - Volo.Abp.Settings.AbpSettingsModule
+2023-06-04 18:39:55.495 +04:30 [INF]                         - Volo.Abp.Security.AbpSecurityModule
+2023-06-04 18:39:55.495 +04:30 [INF]                         - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-06-04 18:39:55.495 +04:30 [INF]                       - Volo.Abp.Threading.AbpThreadingModule
+2023-06-04 18:39:55.496 +04:30 [INF]               - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-06-04 18:39:55.496 +04:30 [INF]             - Volo.Abp.Http.AbpHttpModule
+2023-06-04 18:39:55.496 +04:30 [INF]               - Volo.Abp.Http.AbpHttpAbstractionsModule
+2023-06-04 18:39:55.496 +04:30 [INF]               - Volo.Abp.Minify.AbpMinifyModule
+2023-06-04 18:39:55.496 +04:30 [INF]             - Volo.Abp.Authorization.AbpAuthorizationModule
+2023-06-04 18:39:55.496 +04:30 [INF]               - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2023-06-04 18:39:55.496 +04:30 [INF]             - Volo.Abp.Validation.AbpValidationModule
+2023-06-04 18:39:55.496 +04:30 [INF]             - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2023-06-04 18:39:55.496 +04:30 [INF]           - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2023-06-04 18:39:55.496 +04:30 [INF]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2023-06-04 18:39:55.496 +04:30 [INF]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+2023-06-04 18:39:55.496 +04:30 [INF]           - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2023-06-04 18:39:55.496 +04:30 [INF]             - Volo.Abp.UI.AbpUiModule
+2023-06-04 18:39:55.496 +04:30 [INF]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2023-06-04 18:39:55.496 +04:30 [INF]           - Volo.Abp.Application.AbpDddApplicationModule
+2023-06-04 18:39:55.496 +04:30 [INF]             - Volo.Abp.Domain.AbpDddDomainModule
+2023-06-04 18:39:55.496 +04:30 [INF]               - Volo.Abp.EventBus.AbpEventBusModule
+2023-06-04 18:39:55.496 +04:30 [INF]                 - Volo.Abp.Guids.AbpGuidsModule
+2023-06-04 18:39:55.496 +04:30 [INF]                 - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2023-06-04 18:39:55.496 +04:30 [INF]                 - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2023-06-04 18:39:55.496 +04:30 [INF]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-06-04 18:39:55.496 +04:30 [INF]               - Volo.Abp.Specifications.AbpSpecificationsModule
+2023-06-04 18:39:55.496 +04:30 [INF]               - Volo.Abp.Caching.AbpCachingModule
+2023-06-04 18:39:55.496 +04:30 [INF]                 - Volo.Abp.Serialization.AbpSerializationModule
+2023-06-04 18:39:55.496 +04:30 [INF]             - Volo.Abp.Features.AbpFeaturesModule
+2023-06-04 18:39:55.496 +04:30 [INF]       - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2023-06-04 18:39:55.496 +04:30 [INF]     - Volo.Abp.BackgroundJobs.RabbitMQ.AbpBackgroundJobsRabbitMqModule
+2023-06-04 18:39:55.496 +04:30 [INF]       - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2023-06-04 18:39:55.496 +04:30 [INF]       - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2023-06-04 18:39:55.496 +04:30 [INF]     - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2023-06-04 18:39:55.496 +04:30 [INF]     - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2023-06-04 18:39:55.496 +04:30 [INF]     - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2023-06-04 18:39:55.496 +04:30 [INF]     - EasyDo.Administration.EntityFrameworkCore.AdministrationEntityFrameworkCoreModule
+2023-06-04 18:39:55.496 +04:30 [INF]       - EasyDo.Administration.AdministrationDomainModule
+2023-06-04 18:39:55.496 +04:30 [INF]         - EasyDo.Administration.AdministrationDomainSharedModule
+2023-06-04 18:39:55.496 +04:30 [INF]           - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2023-06-04 18:39:55.496 +04:30 [INF]           - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2023-06-04 18:39:55.496 +04:30 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2023-06-04 18:39:55.496 +04:30 [INF]           - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2023-06-04 18:39:55.496 +04:30 [INF]         - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2023-06-04 18:39:55.496 +04:30 [INF]           - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2023-06-04 18:39:55.496 +04:30 [INF]             - Volo.Abp.Users.AbpUsersDomainSharedModule
+2023-06-04 18:39:55.496 +04:30 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2023-06-04 18:39:55.496 +04:30 [INF]         - Volo.Abp.PermissionManagement.OpenIddict.AbpPermissionManagementDomainOpenIddictModule
+2023-06-04 18:39:55.496 +04:30 [INF]           - Volo.Abp.OpenIddict.AbpOpenIddictDomainSharedModule
+2023-06-04 18:39:55.496 +04:30 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2023-06-04 18:39:55.496 +04:30 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2023-06-04 18:39:55.496 +04:30 [INF]         - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2023-06-04 18:39:55.496 +04:30 [INF]       - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2023-06-04 18:39:55.496 +04:30 [INF]       - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2023-06-04 18:39:55.496 +04:30 [INF]       - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2023-06-04 18:39:55.496 +04:30 [INF]       - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2023-06-04 18:39:55.496 +04:30 [INF]       - Volo.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
+2023-06-04 18:39:55.496 +04:30 [INF]     - Volo.Abp.DistributedLocking.AbpDistributedLockingModule
+2023-06-04 18:39:55.496 +04:30 [INF]   - EasyDo.IdentityService.IdentityServiceHttpApiModule
+2023-06-04 18:39:55.496 +04:30 [INF]     - EasyDo.IdentityService.IdentityServiceApplicationContractsModule
+2023-06-04 18:39:55.496 +04:30 [INF]       - EasyDo.IdentityService.IdentityServiceDomainSharedModule
+2023-06-04 18:39:55.496 +04:30 [INF]       - Volo.Abp.Account.AbpAccountApplicationContractsModule
+2023-06-04 18:39:55.496 +04:30 [INF]         - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2023-06-04 18:39:55.496 +04:30 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2023-06-04 18:39:55.496 +04:30 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2023-06-04 18:39:55.496 +04:30 [INF]     - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2023-06-04 18:39:55.496 +04:30 [INF]     - Volo.Abp.Account.AbpAccountHttpApiModule
+2023-06-04 18:39:55.496 +04:30 [INF]   - EasyDo.IdentityService.IdentityServiceApplicationModule
+2023-06-04 18:39:55.496 +04:30 [INF]     - EasyDo.IdentityService.IdentityServiceDomainModule
+2023-06-04 18:39:55.496 +04:30 [INF]       - Volo.Abp.Identity.AbpIdentityDomainModule
+2023-06-04 18:39:55.496 +04:30 [INF]         - Volo.Abp.Users.AbpUsersDomainModule
+2023-06-04 18:39:55.496 +04:30 [INF]         - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-06-04 18:39:55.496 +04:30 [INF]       - Volo.Abp.OpenIddict.AbpOpenIddictDomainModule
+2023-06-04 18:39:55.496 +04:30 [INF]     - Volo.Abp.Identity.AbpIdentityApplicationModule
+2023-06-04 18:39:55.496 +04:30 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2023-06-04 18:39:55.496 +04:30 [INF]     - Volo.Abp.Account.AbpAccountApplicationModule
+2023-06-04 18:39:55.496 +04:30 [INF]       - Volo.Abp.Emailing.AbpEmailingModule
+2023-06-04 18:39:55.496 +04:30 [INF]         - Volo.Abp.TextTemplating.AbpTextTemplatingModule
+2023-06-04 18:39:55.496 +04:30 [INF]           - Volo.Abp.TextTemplating.Scriban.AbpTextTemplatingScribanModule
+2023-06-04 18:39:55.496 +04:30 [INF]             - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2023-06-04 18:39:55.496 +04:30 [INF]   - EasyDo.IdentityService.EntityFrameworkCore.IdentityServiceEntityFrameworkCoreModule
+2023-06-04 18:39:55.496 +04:30 [INF]     - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2023-06-04 18:39:55.496 +04:30 [INF]       - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2023-06-04 18:39:55.496 +04:30 [INF]     - Volo.Abp.OpenIddict.EntityFrameworkCore.AbpOpenIddictEntityFrameworkCoreModule
+2023-06-04 18:39:55.695 +04:30 [DBG] RabbitMQ Queue 'AbpBackgroundJobs.Volo.Abp.Emailing.BackgroundEmailSendingJobArgs' has 0 messages and 1 consumers.
+2023-06-04 18:39:55.761 +04:30 [DBG] Started background worker: Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker
+2023-06-04 18:39:56.149 +04:30 [INF] Lock is acquired for db migration and seeding on database named: IdentityService...
+2023-06-04 18:39:59.186 +04:30 [INF] Lock is released for db migration and seeding on database named: IdentityService...
+2023-06-04 18:39:59.189 +04:30 [INF] Initialized all ABP modules.
+2023-06-04 18:39:59.260 +04:30 [INF] Now listening on: http://localhost:5229
+2023-06-04 18:39:59.260 +04:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-04 18:39:59.260 +04:30 [INF] Hosting environment: Development
+2023-06-04 18:39:59.260 +04:30 [INF] Content root path: /home/raziee/Desktop/github/easydo/src/services/identity/EasyDo.IdentityService.HttpApi.Host
+2023-06-04 18:40:01.873 +04:30 [INF] Request starting HTTP/1.1 GET http://localhost:5229/ - -
+2023-06-04 18:40:02.024 +04:30 [INF] Executing endpoint 'EasyDo.IdentityService.Controllers.HomeController.Index (EasyDo.IdentityService.HttpApi.Host)'
+2023-06-04 18:40:02.045 +04:30 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller EasyDo.IdentityService.Controllers.HomeController (EasyDo.IdentityService.HttpApi.Host).
+2023-06-04 18:40:02.069 +04:30 [INF] Executing RedirectResult, redirecting to /swagger.
+2023-06-04 18:40:02.074 +04:30 [INF] Executed action EasyDo.IdentityService.Controllers.HomeController.Index (EasyDo.IdentityService.HttpApi.Host) in 25.4041ms
+2023-06-04 18:40:02.074 +04:30 [INF] Executed endpoint 'EasyDo.IdentityService.Controllers.HomeController.Index (EasyDo.IdentityService.HttpApi.Host)'
+2023-06-04 18:40:02.086 +04:30 [INF] Request finished HTTP/1.1 GET http://localhost:5229/ - - - 302 0 - 215.2792ms
+2023-06-04 18:40:02.094 +04:30 [INF] Request starting HTTP/1.1 GET http://localhost:5229/swagger/index.html - -
+2023-06-04 18:40:02.153 +04:30 [INF] Request finished HTTP/1.1 GET http://localhost:5229/swagger/index.html - - - 200 - text/html;charset=utf-8 58.2586ms
+2023-06-04 18:40:02.903 +04:30 [INF] Request starting HTTP/1.1 GET http://localhost:5229/swagger/v1/swagger.json - -
+2023-06-04 18:40:03.135 +04:30 [INF] Request finished HTTP/1.1 GET http://localhost:5229/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 231.9047ms
+2023-06-04 18:40:12.262 +04:30 [INF] Request starting HTTP/1.1 POST http://localhost:5229/api/account/register application/json 111
+2023-06-04 18:40:12.266 +04:30 [INF] CORS policy execution failed.
+2023-06-04 18:40:12.266 +04:30 [INF] Request origin http://localhost:5229 does not have permission to access the resource.
+2023-06-04 18:40:12.270 +04:30 [INF] Executing endpoint 'Volo.Abp.Account.AccountController.RegisterAsync (Volo.Abp.Account.HttpApi)'
+2023-06-04 18:40:12.290 +04:30 [INF] Route matched with {area = "account", action = "Register", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Identity.IdentityUserDto] RegisterAsync(Volo.Abp.Account.RegisterDto) on controller Volo.Abp.Account.AccountController (Volo.Abp.Account.HttpApi).
+2023-06-04 18:40:12.295 +04:30 [WRN] The required antiforgery cookie ".AspNetCore.Antiforgery.N5rL-VQEcuQ" is not present.
+2023-06-04 18:40:12.295 +04:30 [INF] Authorization failed for the request at filter 'Volo.Abp.AspNetCore.Mvc.AntiForgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+2023-06-04 18:40:12.299 +04:30 [INF] Executing StatusCodeResult, setting HTTP status code 400
+2023-06-04 18:40:12.300 +04:30 [INF] Executed action Volo.Abp.Account.AccountController.RegisterAsync (Volo.Abp.Account.HttpApi) in 9.2771ms
+2023-06-04 18:40:12.300 +04:30 [INF] Executed endpoint 'Volo.Abp.Account.AccountController.RegisterAsync (Volo.Abp.Account.HttpApi)'
+2023-06-04 18:40:12.501 +04:30 [DBG] Added 0 entity changes to the current audit log
+2023-06-04 18:40:12.512 +04:30 [DBG] Added 0 entity changes to the current audit log
+2023-06-04 18:40:12.515 +04:30 [INF] Request finished HTTP/1.1 POST http://localhost:5229/api/account/register application/json 111 - 400 0 - 252.8493ms
+2023-06-04 18:40:43.283 +04:30 [INF] Application is shutting down...
+2023-06-04 18:40:43.299 +04:30 [INF] Disposing channel pool (1 channels).
+2023-06-04 18:40:43.308 +04:30 [INF] Disposed RabbitMQ Channel Pool (1 channels in 9.56 ms).
+2023-06-04 18:40:43.320 +04:30 [DBG] Stopped background worker: Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker
+2023-06-14 20:19:52.055 +04:30 [INF] Starting EasyDo.IdentityService.HttpApi.Host.
+2023-06-14 20:19:53.578 +04:30 [INF] Loaded ABP modules:
+2023-06-14 20:19:53.579 +04:30 [INF] - EasyDo.IdentityService.IdentityServiceHttpApiHostModule
+2023-06-14 20:19:53.579 +04:30 [INF]   - EasyDo.Shared.Hosting.Microservices.EasyDoSharedHostingMicroservicesModule
+2023-06-14 20:19:53.579 +04:30 [INF]     - EasyDo.Shared.Hosting.AspNetCore.EasyDoSharedHostingAspNetCoreModule
+2023-06-14 20:19:53.579 +04:30 [INF]       - EasyDo.Shared.Hosting.EasyDoSharedHostingModule
+2023-06-14 20:19:53.579 +04:30 [INF]         - Volo.Abp.Autofac.AbpAutofacModule
+2023-06-14 20:19:53.579 +04:30 [INF]           - Volo.Abp.Castle.AbpCastleCoreModule
+2023-06-14 20:19:53.579 +04:30 [INF]         - Volo.Abp.Data.AbpDataModule
+2023-06-14 20:19:53.579 +04:30 [INF]           - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-06-14 20:19:53.579 +04:30 [INF]             - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-06-14 20:19:53.579 +04:30 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-06-14 20:19:53.579 +04:30 [INF]           - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-06-14 20:19:53.579 +04:30 [INF]           - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-06-14 20:19:53.579 +04:30 [INF]       - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2023-06-14 20:19:53.579 +04:30 [INF]         - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-06-14 20:19:53.579 +04:30 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2023-06-14 20:19:53.579 +04:30 [INF]           - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2023-06-14 20:19:53.579 +04:30 [INF]             - Volo.Abp.Auditing.AbpAuditingModule
+2023-06-14 20:19:53.579 +04:30 [INF]               - Volo.Abp.Json.AbpJsonModule
+2023-06-14 20:19:53.580 +04:30 [INF]                 - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-06-14 20:19:53.580 +04:30 [INF]                   - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-06-14 20:19:53.580 +04:30 [INF]                   - Volo.Abp.Timing.AbpTimingModule
+2023-06-14 20:19:53.580 +04:30 [INF]                     - Volo.Abp.Localization.AbpLocalizationModule
+2023-06-14 20:19:53.580 +04:30 [INF]                       - Volo.Abp.Settings.AbpSettingsModule
+2023-06-14 20:19:53.580 +04:30 [INF]                         - Volo.Abp.Security.AbpSecurityModule
+2023-06-14 20:19:53.580 +04:30 [INF]                         - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-06-14 20:19:53.580 +04:30 [INF]                       - Volo.Abp.Threading.AbpThreadingModule
+2023-06-14 20:19:53.580 +04:30 [INF]               - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-06-14 20:19:53.580 +04:30 [INF]             - Volo.Abp.Http.AbpHttpModule
+2023-06-14 20:19:53.580 +04:30 [INF]               - Volo.Abp.Http.AbpHttpAbstractionsModule
+2023-06-14 20:19:53.580 +04:30 [INF]               - Volo.Abp.Minify.AbpMinifyModule
+2023-06-14 20:19:53.580 +04:30 [INF]             - Volo.Abp.Authorization.AbpAuthorizationModule
+2023-06-14 20:19:53.580 +04:30 [INF]               - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2023-06-14 20:19:53.580 +04:30 [INF]             - Volo.Abp.Validation.AbpValidationModule
+2023-06-14 20:19:53.580 +04:30 [INF]             - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2023-06-14 20:19:53.580 +04:30 [INF]           - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2023-06-14 20:19:53.580 +04:30 [INF]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2023-06-14 20:19:53.580 +04:30 [INF]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+2023-06-14 20:19:53.580 +04:30 [INF]           - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2023-06-14 20:19:53.580 +04:30 [INF]             - Volo.Abp.UI.AbpUiModule
+2023-06-14 20:19:53.580 +04:30 [INF]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2023-06-14 20:19:53.580 +04:30 [INF]           - Volo.Abp.Application.AbpDddApplicationModule
+2023-06-14 20:19:53.580 +04:30 [INF]             - Volo.Abp.Domain.AbpDddDomainModule
+2023-06-14 20:19:53.580 +04:30 [INF]               - Volo.Abp.EventBus.AbpEventBusModule
+2023-06-14 20:19:53.580 +04:30 [INF]                 - Volo.Abp.Guids.AbpGuidsModule
+2023-06-14 20:19:53.580 +04:30 [INF]                 - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2023-06-14 20:19:53.580 +04:30 [INF]                 - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2023-06-14 20:19:53.580 +04:30 [INF]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-06-14 20:19:53.580 +04:30 [INF]               - Volo.Abp.Specifications.AbpSpecificationsModule
+2023-06-14 20:19:53.580 +04:30 [INF]               - Volo.Abp.Caching.AbpCachingModule
+2023-06-14 20:19:53.580 +04:30 [INF]                 - Volo.Abp.Serialization.AbpSerializationModule
+2023-06-14 20:19:53.580 +04:30 [INF]             - Volo.Abp.Features.AbpFeaturesModule
+2023-06-14 20:19:53.580 +04:30 [INF]       - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2023-06-14 20:19:53.580 +04:30 [INF]     - Volo.Abp.BackgroundJobs.RabbitMQ.AbpBackgroundJobsRabbitMqModule
+2023-06-14 20:19:53.580 +04:30 [INF]       - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2023-06-14 20:19:53.580 +04:30 [INF]       - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2023-06-14 20:19:53.580 +04:30 [INF]     - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2023-06-14 20:19:53.580 +04:30 [INF]     - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2023-06-14 20:19:53.580 +04:30 [INF]     - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2023-06-14 20:19:53.580 +04:30 [INF]     - EasyDo.Administration.EntityFrameworkCore.AdministrationEntityFrameworkCoreModule
+2023-06-14 20:19:53.580 +04:30 [INF]       - EasyDo.Administration.AdministrationDomainModule
+2023-06-14 20:19:53.580 +04:30 [INF]         - EasyDo.Administration.AdministrationDomainSharedModule
+2023-06-14 20:19:53.580 +04:30 [INF]           - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2023-06-14 20:19:53.580 +04:30 [INF]           - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2023-06-14 20:19:53.580 +04:30 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2023-06-14 20:19:53.580 +04:30 [INF]           - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2023-06-14 20:19:53.580 +04:30 [INF]         - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2023-06-14 20:19:53.580 +04:30 [INF]           - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2023-06-14 20:19:53.580 +04:30 [INF]             - Volo.Abp.Users.AbpUsersDomainSharedModule
+2023-06-14 20:19:53.580 +04:30 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2023-06-14 20:19:53.580 +04:30 [INF]         - Volo.Abp.PermissionManagement.OpenIddict.AbpPermissionManagementDomainOpenIddictModule
+2023-06-14 20:19:53.580 +04:30 [INF]           - Volo.Abp.OpenIddict.AbpOpenIddictDomainSharedModule
+2023-06-14 20:19:53.580 +04:30 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2023-06-14 20:19:53.580 +04:30 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2023-06-14 20:19:53.580 +04:30 [INF]         - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2023-06-14 20:19:53.580 +04:30 [INF]       - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2023-06-14 20:19:53.580 +04:30 [INF]       - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2023-06-14 20:19:53.580 +04:30 [INF]       - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2023-06-14 20:19:53.580 +04:30 [INF]       - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2023-06-14 20:19:53.580 +04:30 [INF]       - Volo.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
+2023-06-14 20:19:53.580 +04:30 [INF]     - Volo.Abp.DistributedLocking.AbpDistributedLockingModule
+2023-06-14 20:19:53.580 +04:30 [INF]   - EasyDo.IdentityService.IdentityServiceHttpApiModule
+2023-06-14 20:19:53.580 +04:30 [INF]     - EasyDo.IdentityService.IdentityServiceApplicationContractsModule
+2023-06-14 20:19:53.580 +04:30 [INF]       - EasyDo.IdentityService.IdentityServiceDomainSharedModule
+2023-06-14 20:19:53.580 +04:30 [INF]       - Volo.Abp.Account.AbpAccountApplicationContractsModule
+2023-06-14 20:19:53.580 +04:30 [INF]         - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2023-06-14 20:19:53.580 +04:30 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2023-06-14 20:19:53.580 +04:30 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2023-06-14 20:19:53.580 +04:30 [INF]     - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2023-06-14 20:19:53.580 +04:30 [INF]     - Volo.Abp.Account.AbpAccountHttpApiModule
+2023-06-14 20:19:53.580 +04:30 [INF]   - EasyDo.IdentityService.IdentityServiceApplicationModule
+2023-06-14 20:19:53.580 +04:30 [INF]     - EasyDo.IdentityService.IdentityServiceDomainModule
+2023-06-14 20:19:53.580 +04:30 [INF]       - Volo.Abp.Identity.AbpIdentityDomainModule
+2023-06-14 20:19:53.580 +04:30 [INF]         - Volo.Abp.Users.AbpUsersDomainModule
+2023-06-14 20:19:53.580 +04:30 [INF]         - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-06-14 20:19:53.580 +04:30 [INF]       - Volo.Abp.OpenIddict.AbpOpenIddictDomainModule
+2023-06-14 20:19:53.580 +04:30 [INF]     - Volo.Abp.Identity.AbpIdentityApplicationModule
+2023-06-14 20:19:53.580 +04:30 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2023-06-14 20:19:53.580 +04:30 [INF]     - Volo.Abp.Account.AbpAccountApplicationModule
+2023-06-14 20:19:53.580 +04:30 [INF]       - Volo.Abp.Emailing.AbpEmailingModule
+2023-06-14 20:19:53.580 +04:30 [INF]         - Volo.Abp.TextTemplating.AbpTextTemplatingModule
+2023-06-14 20:19:53.580 +04:30 [INF]           - Volo.Abp.TextTemplating.Scriban.AbpTextTemplatingScribanModule
+2023-06-14 20:19:53.580 +04:30 [INF]             - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2023-06-14 20:19:53.580 +04:30 [INF]   - EasyDo.IdentityService.EntityFrameworkCore.IdentityServiceEntityFrameworkCoreModule
+2023-06-14 20:19:53.580 +04:30 [INF]     - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2023-06-14 20:19:53.580 +04:30 [INF]       - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2023-06-14 20:19:53.580 +04:30 [INF]     - Volo.Abp.OpenIddict.EntityFrameworkCore.AbpOpenIddictEntityFrameworkCoreModule
+2023-06-14 20:19:53.799 +04:30 [DBG] RabbitMQ Queue 'AbpBackgroundJobs.Volo.Abp.Emailing.BackgroundEmailSendingJobArgs' has 0 messages and 0 consumers.
+2023-06-14 20:19:53.860 +04:30 [DBG] Started background worker: Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker
+2023-06-14 20:19:54.278 +04:30 [INF] Lock is acquired for db migration and seeding on database named: IdentityService...
+2023-06-14 20:19:57.439 +04:30 [INF] Lock is released for db migration and seeding on database named: IdentityService...
+2023-06-14 20:19:57.443 +04:30 [INF] Initialized all ABP modules.
+2023-06-14 20:19:57.518 +04:30 [INF] Now listening on: http://localhost:5229
+2023-06-14 20:19:57.518 +04:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-14 20:19:57.518 +04:30 [INF] Hosting environment: Development
+2023-06-14 20:19:57.518 +04:30 [INF] Content root path: /home/raziee/Desktop/github/easydo/src/services/identity/EasyDo.IdentityService.HttpApi.Host
+2023-06-14 20:20:00.550 +04:30 [INF] Request starting HTTP/1.1 GET http://localhost:5229/ - -
+2023-06-14 20:20:00.699 +04:30 [INF] Executing endpoint 'EasyDo.IdentityService.Controllers.HomeController.Index (EasyDo.IdentityService.HttpApi.Host)'
+2023-06-14 20:20:00.718 +04:30 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller EasyDo.IdentityService.Controllers.HomeController (EasyDo.IdentityService.HttpApi.Host).
+2023-06-14 20:20:00.745 +04:30 [INF] Executing RedirectResult, redirecting to /swagger.
+2023-06-14 20:20:00.749 +04:30 [INF] Executed action EasyDo.IdentityService.Controllers.HomeController.Index (EasyDo.IdentityService.HttpApi.Host) in 27.775ms
+2023-06-14 20:20:00.750 +04:30 [INF] Executed endpoint 'EasyDo.IdentityService.Controllers.HomeController.Index (EasyDo.IdentityService.HttpApi.Host)'
+2023-06-14 20:20:00.760 +04:30 [INF] Request finished HTTP/1.1 GET http://localhost:5229/ - - - 302 0 - 210.6205ms
+2023-06-14 20:20:00.768 +04:30 [INF] Request starting HTTP/1.1 GET http://localhost:5229/swagger/index.html - -
+2023-06-14 20:20:00.822 +04:30 [INF] Request finished HTTP/1.1 GET http://localhost:5229/swagger/index.html - - - 200 - text/html;charset=utf-8 54.5956ms
+2023-06-14 20:20:00.841 +04:30 [INF] Request starting HTTP/1.1 GET http://localhost:5229/swagger/swagger-ui.css - -
+2023-06-14 20:20:00.841 +04:30 [INF] Request starting HTTP/1.1 GET http://localhost:5229/swagger/swagger-ui-bundle.js - -
+2023-06-14 20:20:00.848 +04:30 [INF] Request starting HTTP/1.1 GET http://localhost:5229/swagger/swagger-ui-standalone-preset.js - -
+2023-06-14 20:20:00.867 +04:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-06-14 20:20:00.867 +04:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-06-14 20:20:00.867 +04:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-06-14 20:20:00.870 +04:30 [INF] Request finished HTTP/1.1 GET http://localhost:5229/swagger/swagger-ui-bundle.js - - - 200 1096145 text/javascript 28.3725ms
+2023-06-14 20:20:00.871 +04:30 [INF] Request finished HTTP/1.1 GET http://localhost:5229/swagger/swagger-ui-standalone-preset.js - - - 200 339486 text/javascript 23.0483ms
+2023-06-14 20:20:00.871 +04:30 [INF] Request finished HTTP/1.1 GET http://localhost:5229/swagger/swagger-ui.css - - - 200 143943 text/css 29.6093ms
+2023-06-14 20:20:01.708 +04:30 [INF] Request starting HTTP/1.1 GET http://localhost:5229/swagger/v1/swagger.json - -
+2023-06-14 20:20:01.904 +04:30 [INF] Request finished HTTP/1.1 GET http://localhost:5229/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 196.4491ms
+2023-06-14 20:21:40.752 +04:30 [INF] Request starting HTTP/1.1 POST http://localhost:5229/api/account/register application/json 111
+2023-06-14 20:21:40.762 +04:30 [INF] CORS policy execution failed.
+2023-06-14 20:21:40.762 +04:30 [INF] Request origin http://localhost:5229 does not have permission to access the resource.
+2023-06-14 20:21:40.775 +04:30 [INF] Executing endpoint 'Volo.Abp.Account.AccountController.RegisterAsync (Volo.Abp.Account.HttpApi)'
+2023-06-14 20:21:40.791 +04:30 [INF] Route matched with {area = "account", action = "Register", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Identity.IdentityUserDto] RegisterAsync(Volo.Abp.Account.RegisterDto) on controller Volo.Abp.Account.AccountController (Volo.Abp.Account.HttpApi).
+2023-06-14 20:21:40.796 +04:30 [WRN] The required antiforgery cookie ".AspNetCore.Antiforgery.N5rL-VQEcuQ" is not present.
+2023-06-14 20:21:40.797 +04:30 [INF] Authorization failed for the request at filter 'Volo.Abp.AspNetCore.Mvc.AntiForgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+2023-06-14 20:21:40.800 +04:30 [INF] Executing StatusCodeResult, setting HTTP status code 400
+2023-06-14 20:21:40.800 +04:30 [INF] Executed action Volo.Abp.Account.AccountController.RegisterAsync (Volo.Abp.Account.HttpApi) in 9.5345ms
+2023-06-14 20:21:40.800 +04:30 [INF] Executed endpoint 'Volo.Abp.Account.AccountController.RegisterAsync (Volo.Abp.Account.HttpApi)'
+2023-06-14 20:21:41.048 +04:30 [DBG] Added 0 entity changes to the current audit log
+2023-06-14 20:21:41.056 +04:30 [DBG] Added 0 entity changes to the current audit log
+2023-06-14 20:21:41.059 +04:30 [INF] Request finished HTTP/1.1 POST http://localhost:5229/api/account/register application/json 111 - 400 0 - 307.6156ms
+2023-06-14 21:21:58.556 +04:30 [INF] Request starting HTTP/1.1 GET http://localhost:5229/swagger/index.html - -
+2023-06-14 21:21:58.559 +04:30 [INF] Request finished HTTP/1.1 GET http://localhost:5229/swagger/index.html - - - 200 - text/html;charset=utf-8 2.7973ms
+2023-06-14 21:21:59.383 +04:30 [INF] Request starting HTTP/1.1 GET http://localhost:5229/swagger/v1/swagger.json - -
+2023-06-14 21:21:59.434 +04:30 [INF] Request finished HTTP/1.1 GET http://localhost:5229/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 50.7852ms
+2023-06-14 22:12:25.412 +04:30 [INF] Lock is acquired for TokenCleanupBackgroundWorker
+2023-06-14 22:12:25.627 +04:30 [INF] Start cleanup.
+2023-06-14 22:12:25.627 +04:30 [INF] Start cleanup tokens.
+2023-06-14 22:12:25.881 +04:30 [INF] Start cleanup authorizations.
+2023-06-14 22:12:25.929 +04:30 [INF] Lock is released for TokenCleanupBackgroundWorker
+2023-06-15 00:10:29.907 +04:30 [INF] Lock is acquired for TokenCleanupBackgroundWorker
+2023-06-15 00:10:29.909 +04:30 [INF] Start cleanup.
+2023-06-15 00:10:29.909 +04:30 [INF] Start cleanup tokens.
+2023-06-15 00:10:29.981 +04:30 [INF] Start cleanup authorizations.
+2023-06-15 00:10:29.988 +04:30 [INF] Lock is released for TokenCleanupBackgroundWorker
+2023-06-15 01:10:29.993 +04:30 [INF] Lock is acquired for TokenCleanupBackgroundWorker
+2023-06-15 01:10:29.996 +04:30 [INF] Start cleanup.
+2023-06-15 01:10:29.996 +04:30 [INF] Start cleanup tokens.
+2023-06-15 01:10:30.052 +04:30 [INF] Start cleanup authorizations.
+2023-06-15 01:10:30.057 +04:30 [INF] Lock is released for TokenCleanupBackgroundWorker
+2023-06-15 10:49:35.206 +04:30 [INF] Lock is acquired for TokenCleanupBackgroundWorker
+2023-06-15 10:49:35.210 +04:30 [INF] Start cleanup.
+2023-06-15 10:49:35.210 +04:30 [INF] Start cleanup tokens.
+2023-06-15 10:49:35.299 +04:30 [INF] Start cleanup authorizations.
+2023-06-15 10:49:35.305 +04:30 [INF] Lock is released for TokenCleanupBackgroundWorker
+2023-06-15 11:49:35.311 +04:30 [INF] Lock is acquired for TokenCleanupBackgroundWorker
+2023-06-15 11:49:35.316 +04:30 [INF] Start cleanup.
+2023-06-15 11:49:35.316 +04:30 [INF] Start cleanup tokens.
+2023-06-15 11:49:35.452 +04:30 [INF] Start cleanup authorizations.
+2023-06-15 11:49:35.459 +04:30 [INF] Lock is released for TokenCleanupBackgroundWorker
+2023-06-15 14:32:11.904 +04:30 [INF] Lock is acquired for TokenCleanupBackgroundWorker
+2023-06-15 14:32:11.910 +04:30 [INF] Start cleanup.
+2023-06-15 14:32:11.910 +04:30 [INF] Start cleanup tokens.
+2023-06-15 14:32:11.992 +04:30 [INF] Start cleanup authorizations.
+2023-06-15 14:32:11.997 +04:30 [INF] Lock is released for TokenCleanupBackgroundWorker

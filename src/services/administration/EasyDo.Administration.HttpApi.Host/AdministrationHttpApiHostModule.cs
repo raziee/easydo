@@ -38,7 +38,7 @@ public class AdministrationHttpApiHostModule : AbpModule
 
         SwaggerConfigurationHelper.ConfigureWithAuth(
             context: context,
-            authority: configuration["AuthServer:Authority"],
+            authority: configuration["AuthServer:Authority"]??"",
             scopes: new
                 Dictionary<string, string> /* Requested scopes for authorization code request and descriptions for swagger UI only */
                 {
@@ -53,7 +53,7 @@ public class AdministrationHttpApiHostModule : AbpModule
             {
                 builder
                     .WithOrigins(
-                        configuration["App:CorsOrigins"]
+                        (configuration["App:CorsOrigins"]??"")
                             .Split(",", StringSplitOptions.RemoveEmptyEntries)
                             .Select(o => o.Trim().RemovePostFix("/"))
                             .ToArray()
